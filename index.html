@@ -1,43 +1,30 @@
-<!DOCTYPE HTML>
-<!--
-	Laboratorios LA FRIA STEREO.
--->
-<html>
-	<head>
-		<title>LA FRIA RADIO</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+<!DOCTYPE html>
 
-				<!-- Header -->
-					<header id="header">
-						<header>
-							<h1>LA FRIA RADIO</h1>
-							<p><b>Hey mi llave tomate la Fría con la Radio web del momento</b><br>
-							<b>escuchando música bacana dale play sintonizala hay fue...</b></p>
-						</header>
-						<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-						<script src="https://cdn.mexiserver.com/html5players/4/js/player4-mexiserver.js"></script>
-						<!-- <div id="mexiserver" style="width:; height:;"></div> -->
-						<div id="mexiserver"></div>
-						<script> $("#mexiserver").lunaradio({ streamurl: "https://stream-063.zeno.fm/v6zyveqapl1uv?zs=br5a-KgMRxeTWgOgYFxnLQ", radioname: "LA FRIA RADIO", coverimage: "https://zeno.fm/_next/image/?url=https%3A%2F%2Fimages.zeno.fm%2F7eP-x-gkxyKpoC_bISOyuaEkH60iB-U9mcs-z7Rw40A%2Frs%3Afit%3A240%3A240%2Fg%3Ace%3A0%3A0%2FaHR0cHM6Ly9zdHJlYW0tdG9vbHMuemVub21lZGlhLmNvbS9jb250ZW50L3N0YXRpb25zLzlmM2JhMzViLWI2MjgtNGY4Yi1hMjM2LTdmNmI1ZWM4OTRkNS9pbWFnZS8_dXBkYXRlZD0xNjgwOTk4OTYxMDAw.webp&w=1920&q=100", onlycoverimage: true, userinterface: "small", backgroundcolor: "#0e1015", fontcolor: "#ffffff", hightlightcolor: "#e7433c", fontname: "Saira Condensed", googlefont: "Saira+Condensed:wght@100", fontratio: "0.4", scroll: "true", coverstyle: "animated", usevisualizer: "real", visualizertype: "5", streamtype: "shoutcast2", shoutcastpath: "/stream", shoutcastid: "1", metadatainterval: "5000", volume: "100", usestreamcorsproxy: "true", }); </script>
+<html lang="es">
+
+<head>
+	<title>La Fria Radio - Sirvela</title>
+	<meta charset="utf-8" />
+	<meta name="description"
+		content="Somos La Fria Radio, tu Emisora para el vasile." />
+	<meta property="og:image" content="https://i.ibb.co/7rJqLxV/Imagen-de-Whats-App-2023-05-10-a-las-16-14-46.png">
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="rectangle">
+			<img class="logo" src="https://zeno.fm/_next/image/?url=https%3A%2F%2Fimages.zeno.fm%2FCbTjpje60L1S5wvVTg_11mr1vpcrUv9NTu2g2u20Cfg%2Frs%3Afit%3A320%3A320%2Fg%3Ace%3A0%3A0%2FaHR0cHM6Ly96ZW5vaW1hZ2VzLnMzLnVzLXdlc3QtMDAxLmJhY2tibGF6ZWIyLmNvbS85ZjNiYTM1Yi1iNjI4LTRmOGItYTIzNi03ZjZiNWVjODk0ZDUvY2FyZHMvZWZjYjFlZjctYTZjYi00OWVlLThlNDUtODlkODFmZTA5NTU0.webp&w=1920&q=75" alt="La Fria Radio">
+			<div class="marquee-container">
+				<marquee class="sampleMarquee" direction="left" scrollamount="10" behavior="scroll">
+					Somos LA FRIA RADIO!
+				</marquee>
 			</div>
-			<!-- Footer -->
-			<footer id="footer">
-				&copy; All rights reserved. Design By: <a href="#">Ramiro Niebles</a>
-			</footer>
+			<iframe src="https://stream-063.zeno.fm/v6zyveqapl1uv?zs=br5a-KgMRxeTWgOgYFxnLQ" width="90%" height="100" frameborder="0" scrolling="no" autoplay="true"></iframe>
 		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+	</div>
+</body>
+
 </html>
