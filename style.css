@@ -16,7 +16,7 @@ body {
 }
 
 .rectangle {
-	background: linear-gradient(to bottom, #0000003b, #0000803b);
+	/** background: linear-gradient(to bottom, #0000003b, #0000803b); **/
 	padding: 50px;
 	text-align: center;
 	width: 90%;
