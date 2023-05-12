@@ -55,7 +55,7 @@ body {
 
 .sampleMarquee {
 	color: #ffffff;
-	background-color: #0000003b;
+	background-color: #0000;
 	font-size: 34px;
 	line-height: 70px;
 	padding: 15px;
@@ -64,6 +64,14 @@ body {
 	font-style: italic;
 	text-align: justify;
 	font-variant: small-caps;
+	color: #333;
+	background: #FFFFFF;
+	text-shadow: 2px 2px 0px #000, 5px 4px 0px rgba(0,0,0,0.15);
+	color: #fff;
+	background: #FFFFFF;
+}
+	
+	
 }
 
 /* header {
